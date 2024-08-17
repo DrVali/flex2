@@ -1,0 +1,126 @@
+
+@font-face {
+  font-family: 'shabnam';
+  src:  url('./fonts/Shabnam.eot') format('eot'),
+        url('./fonts/Shabnam.woff') format('woff'),
+        url('./fonts/Shabnam.ttf') format('truetype');
+}
+*,*::after,*::before {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'shabnam', sans-serif,!important;
+}
+
+ul,li,ol {
+    list-style-type: none;
+}
+a {
+text-decoration: none;
+         text-decoration: none;
+        -webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+	-o-transition: all .2s ease-in-out;
+	transition: all .2s ease-in-out;
+}
+a:hover {
+	text-decoration: none;
+}
+
+.container1{
+  padding:40px;
+}
+
+.box{
+box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+padding:10px;
+width: 23%;
+}
+
+.box-content{
+  padding:30px 30px;
+   width:100%; 
+  display:flex; 
+  flex-direction:row;
+}
+
+.box-content .box .text{
+    text-align: justify;
+}
+.box-content .box img{
+  padding: 8px;
+  max-width: 95%;
+  margin-bottom: 5px;;
+}
+.box-content .box  .color{
+    background: azure;
+    padding: 5px;
+    margin: 5px;
+}
+.box-content .box .first{
+  padding: 5px; 
+  background: bisque;  
+  border-radius: 15px;c
+  color: blue;
+}
+.box-content .box .del-num{ 
+  padding:5px;
+}
+.box-content .box .money{
+  display:inline-block; 
+  float:right;
+}
+.box-content .box .star{
+  display:inline-block; 
+  float:left;    
+   width: 30px;
+   height:30px;
+}
+.box-content .box .digit{
+  float:left; 
+  margin:5px; 
+  color:gray;
+}
+.title h5{
+
+  display:inline-block; float:right;
+}
+
+.title h5 img{
+  width: 20px; height: 20px;
+}
+.title a{display:inline-block; 
+  float:left;}
+
+
+.box-content {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: left;
+  align-items: center;
+  gap: 16px;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 20px 10px;
+}
+
+@media screen and (max-width:920px) {
+
+  .box-content .box {
+    width: 40%;
+    
+  }
+}
+
+
+@media screen and (max-width:728px) {
+
+  .box-content .box {
+    width: 70%;
+    
+  }
+}
